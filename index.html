@@ -8,36 +8,64 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
 <link rel="stylesheet" href="./css/styles.css" />
    
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
 
     <title>Document</title>
 
 </head>
 <body>
 
-<div class="card">
-  <img src="https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&w=240&dpr=2"
-    alt="" width="240">
-  <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eaque odio voluptatibus
-    assumenda reprehenderit? Nisi quibusdam nihil cum ipsam debitis alias at tempora omnis, recusandae tempore facilis,
-    corrupti modi ducimus ullam natus amet, beatae inventore nulla deserunt aspernatur. Expedita, laudantium
-    perspiciatis autem veniam quae est eveniet pariatur in quam repellendus magnam dolor laborum nulla culpa sunt
-    aspernatur eius quidem? Quaerat neque tempore fuga ullam sed vitae, porro eveniet aut perspiciatis eaque ex iste
-    minus, architecto fugiat, quasi a voluptate animi?</div>
-</div>
 
-<div class="card flex-start-aligned">
-  <img src="https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&w=240&dpr=2"
-    alt="" width="240">
-  <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eaque odio voluptatibus
-    assumenda reprehenderit? Nisi quibusdam nihil cum ipsam debitis alias at tempora omnis, recusandae tempore facilis,
-    corrupti modi ducimus ullam natus amet, beatae inventore nulla deserunt aspernatur. Expedita, laudantium
-    perspiciatis autem veniam quae est eveniet pariatur in quam repellendus magnam dolor laborum nulla culpa sunt
-    aspernatur eius quidem? Quaerat neque tempore fuga ullam sed vitae, porro eveniet aut perspiciatis eaque ex iste
-    minus, architecto fugiat, quasi a voluptate animi?</div>
-</div>
+  <section class="section section-contact">
+    <div class="container">
+      <h2 class="section__title">CONTACT US</h2>
+
+      <div>
+        <form class="form">
+
+          <label class="label" for="user-name"></label>
+          <input class="input" 
+          type="name" 
+          name="name" 
+          placeholder="Name" 
+          required 
+          id="user-name">
+
+
+          <label class="label" for="input-email"></label>
+          <input class="input" 
+          type="email" 
+          name="email" 
+          placeholder="E-mail" 
+          required 
+          id="input-email">
+
+
+        <button class="button privacy-btn" type="submit">SUBMIT</button>
+
+        </form>
+
+        <h3 class="section__subtitle">Get in touch with us</h3>
+        <p class="section__text wrapper-text">Nunc urna est, tristique et varius at, pharetra nec enim. Quisque rhoncus lacus fringilla nulla sollicitudin tristique.</p>
+
+       
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">&copy;2019 GoIteens Template. <br> All Rights Reserved</p>
+  
+  </footer>
+     
+  
+    
+ 
 
 
 </body>
