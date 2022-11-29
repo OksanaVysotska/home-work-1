@@ -269,8 +269,6 @@ ul {
 
 .button:hover {
     background: transparent;
-    border-color: red;
-    border: 1px solid;
     border-image: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%); 
 
     
@@ -296,8 +294,6 @@ ul {
     margin-right: 14px;
 }
 .soc-networks__icon {
-    width: 20px;
-    height: 20px;
     position: relative;
     z-index: 2;
 }
@@ -312,13 +308,12 @@ ul {
         background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
         border-radius: 50%;
         border: none;
+       
 }
 
         .soc-networks__link::before {
         position: absolute;
         content: "";
-        /* left: 50%;
-        top: 50%; */
         translate:(-50%, -50%);
           
         width: calc(100% - 2px);
@@ -333,7 +328,7 @@ ul {
 
     .soc-networks__link:hover {
         background: #06071b;
-    
+           
     }
 
     .soc-networks__link:hover::before,
@@ -345,7 +340,13 @@ ul {
     fill: #FFFFFF;
 }
 
+.icon-footer-facebook {
 
+}
+
+.icon-facebook-hover {
+
+}
 
 
 
